@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notice</title>
+
+
+      <!-- <link href="/static_files/css/tailwind-output-2.css" rel="stylesheet"> -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+  
+      <script src="https://kit.fontawesome.com/4b92de7e76.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+           
+    <nav class="bg-[#18dcff] ">
+        <div class="p-4 border-b bg-slate-50">
+            <div class="container mx-auto">
+                <div class="flex items-center justify-center md:justify-between">
+                    
+                    <div class="text-center">
+                        <img src="./asset/images/logo.png" class="w-16" alt="">
+                        
+                    </div>
+    
+                    <div class="text-center">
+                        <h1 class=" text-sm md:text-4xl font-extrabold">Hajee Mohammad Danesh Science and Technology University
+                        </h1>
+                        <h1 class=" text-sm md:text-3xl font-medium">Department of Electronics and communication Engineering 
+                        </h1>
+                       
+                    </div>
+                    <div class="flex justify-between hidden md:hidden lg:block">
+                        
+                        <a href="" class="btn btn-info ">LogIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="md:hidden">
+                <div class="flex justify-between  my-2 px-4">
+                    
+                    <a href="#">Download</a></li>
+                    <a href="#">ePay</a></li>
+                    <div class="flex justify-between items-center p-1 px-2 cursor-pointer" id="menu-button">
+                        
+                        
+                      <div class="text-xl">Menu  <i class="fa-solid fa-bars"></i></div>
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="hidden md:block" id="menu">
+                <ul class="justify-center md:text-md  font-medium md:flex md:flex-wrap lg:flex ">
+                    <li class="p-3 mx-2 text-black"><a href="./index.html">Home</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#aboutus">About Us</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="./faculty.html">Faculty</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Events</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Addmission</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Accadamic</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="./research.html">Research</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Project</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Campus Life</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="./alumni.html">Alumni</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Notice</a></li>
+                
+                   
+                    <li class="p-2 mx-2 text-slate-600 hover:text-black "><a href="#" class="md:hidden lg:hidden">LogIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero sm:min-h-[calc(100vh-200px)] md:min-h-[calc(100vh-225px)]" style="background-image: url('./asset/images/jo-szczepanska-5aiRb5f464A-unsplash.jpg');">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold">Notice</h1>
+            <p class="mb-5">Your one-stop destination for staying informed about the latest updates, announcements, and important notices from HUST. We understand the significance of transparent communication, and this page is designed to keep our community well-informed.</p>
+            
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="px-2">
+        <section class="w-full md:w-11/12 md:mx-auto py-5">
+            <h1 class="text-3xl font-bold py-5">Classes of September 5, 2023 to be held on Thursday, September 14, 2023</h1>
+            <p class="text-xl py-5">Make up  class for September 5, 2023 will be held on Thursday, September 14, 2023 including Freshers.</p>
+        </section>
+
+
+        <section class="w-full md:w-11/12 md:mx-auto py-5 ">
+            <h1 class="text-3xl font-bold py-5 inline-block border-x-2 border-teal-200 px-2">YOU MAY ALSO LIKE</h1>
+            
+
+            <div>
+                <div class="flex justify-between ">
+                    <h1 class="text-2xl font-extrabold py-8">Latest</h1>
+                    <div>
+                        <label for="filter-date">Filter by Date:</label>
+                        <input id="filter-date" type="date" class="input input-bordered input-accent" />
+                        <button id="filter-button" class="btn btn-primary">Filter</button>
+                    </div>
+                </div>
+                <div id="notice-container">
+                    <div  class="notice-item" data-date="2023-10-12">
+                        <div class="divider"></div> 
+                        <div class="flex flex-col md:flex-row gap-12 px-4">
+                            <h1>12 Octobar, 2023</h1>
+                            <div>
+                                <a href="" class="text-2xl font-bold">
+                                    Seat Plan for I removal Exam of Summer 2023
+                                </a>
+                                <p>I Removal Exam Seat Plan of Summer 2023</p>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div  class="notice-item" data-date="2023-09-12">
+                        <div class="divider"></div> 
+                        <div class="flex flex-col md:flex-row gap-12 px-4">
+                            <h1>2023-september-12</h1>
+                            <div>
+                                <a href="" class="text-2xl font-bold">
+                                    Seat Plan for I removal Exam of Summer 2023
+                                </a>
+                                <p>I Removal Exam Seat Plan of Summer 2023</p>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div  class="notice-item" data-date="2023-12-12">
+                        <div class="divider"></div> 
+                        <div class="flex flex-col md:flex-row gap-12 px-4">
+                            <h1>12 September, 2023</h1>
+                            <div>
+                                <a href="" class="text-2xl font-bold">
+                                    Seat Plan for I removal Exam of Summer 2023
+                                </a>
+                                <p>I Removal Exam Seat Plan of Summer 2023</p>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+
+        <section class="w-full md:w-11/12 md:mx-auto py-5 ">
+            
+            
+
+            <div>
+                <div class="flex justify-between ">
+                    <h1 class="text-2xl font-extrabold py-8">Announcements</h1>
+                    <div>
+                        <label for="filter-date">Filter by Date:</label>
+                        <input id="filter-date" type="date" class="input input-bordered input-accent" />
+                        <button id="filter-button" class="btn btn-primary">Filter</button>
+                    </div>
+                </div>
+                <div id="notice-container">
+                    <div  class="notice-item" data-date="2023-10-12">
+                        <div class="divider"></div> 
+                        <div class="flex flex-col md:flex-row gap-12 px-4">
+                            <h1>12 Octobar, 2023</h1>
+                            <div>
+                                <a href="" class="text-2xl font-bold">
+                                    Seat Plan for I removal Exam of Summer 2023
+                                </a>
+                                <p>I Removal Exam Seat Plan of Summer 2023</p>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div  class="notice-item" data-date="2023-09-12">
+                        <div class="divider"></div> 
+                        <div class="flex flex-col md:flex-row gap-12 px-4">
+                            <h1>2023-september-12</h1>
+                            <div>
+                                <a href="" class="text-2xl font-bold">
+                                    Seat Plan for I removal Exam of Summer 2023
+                                </a>
+                                <p>I Removal Exam Seat Plan of Summer 2023</p>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div  class="notice-item" data-date="2023-12-12">
+                        <div class="divider"></div> 
+                        <div class="flex flex-col md:flex-row gap-12 px-4">
+                            <h1>12 September, 2023</h1>
+                            <div>
+                                <a href="" class="text-2xl font-bold">
+                                    Seat Plan for I removal Exam of Summer 2023
+                                </a>
+                                <p>I Removal Exam Seat Plan of Summer 2023</p>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+
+        <section class="w-full md:w-11/12 md:mx-auto py-5 ">
+            
+            
+
+            <div>
+                <div class="flex justify-between ">
+                    <h1 class="text-2xl font-extrabold py-8">Academic Notice</h1>
+                    <div>
+                        <label for="filter-date">Filter by Date:</label>
+                        <input id="filter-date" type="date" class="input input-bordered input-accent" />
+                        <button id="filter-button" class="btn btn-primary">Filter</button>
+                    </div>
+                </div>
+                <div id="notice-container">
+                    <div  class="notice-item" data-date="2023-10-12">
+                        <div class="divider"></div> 
+                        <div class="flex flex-col md:flex-row gap-12 px-4">
+                            <h1>12 Octobar, 2023</h1>
+                            <div>
+                                <a href="" class="text-2xl font-bold">
+                                    Seat Plan for I removal Exam of Summer 2023
+                                </a>
+                                <p>I Removal Exam Seat Plan of Summer 2023</p>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div  class="notice-item" data-date="2023-09-12">
+                        <div class="divider"></div> 
+                        <div class="flex flex-col md:flex-row gap-12 px-4">
+                            <h1>2023-september-12</h1>
+                            <div>
+                                <a href="" class="text-2xl font-bold">
+                                    Seat Plan for I removal Exam of Summer 2023
+                                </a>
+                                <p>I Removal Exam Seat Plan of Summer 2023</p>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div  class="notice-item" data-date="2023-12-12">
+                        <div class="divider"></div> 
+                        <div class="flex flex-col md:flex-row gap-12 px-4">
+                            <h1>12 September, 2023</h1>
+                            <div>
+                                <a href="" class="text-2xl font-bold">
+                                    Seat Plan for I removal Exam of Summer 2023
+                                </a>
+                                <p>I Removal Exam Seat Plan of Summer 2023</p>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+
+        <section class="w-full md:w-11/12 md:mx-auto py-5 ">
+            
+            
+
+            <div>
+                <div class="flex justify-between ">
+                    <h1 class="text-2xl font-extrabold py-8">Addmission</h1>
+                    <div>
+                        <label for="filter-date">Filter by Date:</label>
+                        <input id="filter-date" type="date" class="input input-bordered input-accent" />
+                        <button id="filter-button" class="btn btn-primary">Filter</button>
+                    </div>
+                </div>
+                <div id="notice-container">
+                    <div  class="notice-item" data-date="2023-10-12">
+                        <div class="divider"></div> 
+                        <div class="flex flex-col md:flex-row gap-12 px-4">
+                            <h1>12 Octobar, 2023</h1>
+                            <div>
+                                <a href="" class="text-2xl font-bold">
+                                    Seat Plan for I removal Exam of Summer 2023
+                                </a>
+                                <p>I Removal Exam Seat Plan of Summer 2023</p>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div  class="notice-item" data-date="2023-09-12">
+                        <div class="divider"></div> 
+                        <div class="flex flex-col md:flex-row gap-12 px-4">
+                            <h1>2023-september-12</h1>
+                            <div>
+                                <a href="" class="text-2xl font-bold">
+                                    Seat Plan for I removal Exam of Summer 2023
+                                </a>
+                                <p>I Removal Exam Seat Plan of Summer 2023</p>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div  class="notice-item" data-date="2023-12-12">
+                        <div class="divider"></div> 
+                        <div class="flex flex-col md:flex-row gap-12 px-4">
+                            <h1>12 September, 2023</h1>
+                            <div>
+                                <a href="" class="text-2xl font-bold">
+                                    Seat Plan for I removal Exam of Summer 2023
+                                </a>
+                                <p>I Removal Exam Seat Plan of Summer 2023</p>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+
+        <section class="w-full md:w-11/12 md:mx-auto py-5 ">
+            
+            
+
+            <div>
+                <div class="flex justify-between ">
+                    <h1 class="text-2xl font-extrabold py-8">Events and Activities</h1>
+                    <div>
+                        <label for="filter-date">Filter by Date:</label>
+                        <input id="filter-date" type="date" class="input input-bordered input-accent" />
+                        <button id="filter-button" class="btn btn-primary">Filter</button>
+                    </div>
+                </div>
+                <div id="notice-container">
+                    <div  class="notice-item" data-date="2023-10-12">
+                        <div class="divider"></div> 
+                        <div class="flex flex-col md:flex-row gap-12 px-4">
+                            <h1>12 Octobar, 2023</h1>
+                            <div>
+                                <a href="" class="text-2xl font-bold">
+                                    Seat Plan for I removal Exam of Summer 2023
+                                </a>
+                                <p>I Removal Exam Seat Plan of Summer 2023</p>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div  class="notice-item" data-date="2023-09-12">
+                        <div class="divider"></div> 
+                        <div class="flex flex-col md:flex-row gap-12 px-4">
+                            <h1>2023-september-12</h1>
+                            <div>
+                                <a href="" class="text-2xl font-bold">
+                                    Seat Plan for I removal Exam of Summer 2023
+                                </a>
+                                <p>I Removal Exam Seat Plan of Summer 2023</p>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div  class="notice-item" data-date="2023-12-12">
+                        <div class="divider"></div> 
+                        <div class="flex flex-col md:flex-row gap-12 px-4">
+                            <h1>12 September, 2023</h1>
+                            <div>
+                                <a href="" class="text-2xl font-bold">
+                                    Seat Plan for I removal Exam of Summer 2023
+                                </a>
+                                <p>I Removal Exam Seat Plan of Summer 2023</p>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+
+<!-- main footer -->
+
+        <div id="mainfooter-placeholder"></div>
+    </main>
+
+    <!-- footer -->
+    <div id="footer-placeholder"></div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#navbar-placeholder").load("./asset/shared/navabar.html");
+        $("#mainfooter-placeholder").load("./asset/shared/mainfooter.html");
+        $("#footer-placeholder").load("./asset/shared/footer.html");
+      });
+    
+    
+       
+    </script>
+    <script>
+        const menubtn = document.getElementById('menu-button');
+        const menu = document.getElementById('menu');
+        menubtn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const filterDateInput = document.getElementById("filter-date");
+            const filterButton = document.getElementById("filter-button");
+            const noticeContainer = document.getElementById("notice-container");
+        
+            filterButton.addEventListener("click", function () {
+                const selectedDate = filterDateInput.value;
+                const notices = noticeContainer.querySelectorAll(".notice-item");
+        
+                notices.forEach((notice) => {
+                    const noticeDate = notice.getAttribute("data-date");
+        
+                    if (selectedDate === noticeDate) {
+                        notice.style.display = "block";
+                    } else {
+                        notice.style.display = "none";
+                    }
+                });
+            });
+        });
+        
+    </script>
+    
+</body>
+</html>

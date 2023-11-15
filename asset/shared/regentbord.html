@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notice</title>
+
+
+      <!-- <link href="/static_files/css/tailwind-output-2.css" rel="stylesheet"> -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+  
+      <script src="https://kit.fontawesome.com/4b92de7e76.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+           
+    <nav class="bg-[#18dcff] ">
+        <div class="p-4 border-b bg-slate-50">
+            <div class="container mx-auto">
+                <div class="flex items-center justify-center md:justify-between">
+                    
+                    <div class="text-center">
+                        <img src="./asset/images/logo.png" class="w-16" alt="">
+                        
+                    </div>
+    
+                    <div class="text-center">
+                        <h1 class=" text-sm md:text-4xl font-extrabold">Hajee Mohammad Danesh Science and Technology University
+                        </h1>
+                        <h1 class=" text-sm md:text-3xl font-medium">Department of Electronics and communication Engineering 
+                        </h1>
+                       
+                    </div>
+                    <div class="flex justify-between hidden md:hidden lg:block">
+                        
+                        <a href="" class="btn btn-info ">LogIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="md:hidden">
+                <div class="flex justify-between  my-2 px-4">
+                    
+                    <a href="#">Download</a></li>
+                    <a href="#">ePay</a></li>
+                    <div class="flex justify-between items-center p-1 px-2 cursor-pointer" id="menu-button">
+                        
+                        
+                      <div class="text-xl">Menu  <i class="fa-solid fa-bars"></i></div>
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="hidden md:block" id="menu">
+                <ul class="justify-center md:text-md  font-medium md:flex md:flex-wrap lg:flex ">
+                    <li class="p-3 mx-2 text-black"><a href="../../index.html">Home</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#aboutus">About Us</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="../../faculty.html">Faculty</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Events</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Addmission</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Accadamic</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="../../research.html">Research</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Project</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Campus Life</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="../../alumni.html">Alumni</a></li>
+                    <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="../../notice.html">Notice</a></li>
+                
+                   
+                    <li class="p-2 mx-2 text-slate-600 hover:text-black "><a href="#" class="md:hidden lg:hidden">LogIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    </header>
+
+    <main class="px-2">
+        <section class="w-full md:w-11/12 md:mx-auto py-5">
+            <h1 class=" bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white text-center text-3xl font-bold py-5">Regent Bord</h1>
+            
+            <div class="text-center my-12">
+                <a href="https://hstu.ac.bd/uploads/files/regent-board-hstu.pdf" class="btn btn-info ">Download as PDF</a>
+            </div>
+        </section>
+
+
+        <section class="w-full md:w-11/12 md:mx-auto py-5  ">
+           
+            
+            <p class="h-full text-center">p
+                <img src="https://hstu.ac.bd/uploads/files/regent-board-hstu.pdf" alt="">
+            </p>
+           
+        </section>
+
+
+       
+
+<!-- main footer -->
+
+        <div id="mainfooter-placeholder"></div>
+    </main>
+
+    <!-- footer -->
+    <div id="footer-placeholder"></div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#navbar-placeholder").load("./asset/shared/navabar.html");
+        $("#mainfooter-placeholder").load("../shared/mainfooter.html");
+        $("#footer-placeholder").load("../shared/footer.html");
+      });
+    
+    
+       
+    </script>
+    <script>
+        const menubtn = document.getElementById('menu-button');
+        const menu = document.getElementById('menu');
+        menubtn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+
+
+
+        
+        
+    </script>
+    
+</body>
+</html>

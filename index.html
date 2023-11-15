@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link href="/static_files/css/tailwind-output-2.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://kit.fontawesome.com/4b92de7e76.js" crossorigin="anonymous"></script>
+
+    <!-- <style>
+      #menu {
+        display: none;
+      }
+    </style> -->
+</head>
+
+<body>
+   <header>
+     
+    <nav class="bg-[#18dcff] ">
+      <div class="p-4 border-b bg-slate-50">
+          <div class="container mx-auto">
+              <div class="flex items-center justify-center md:justify-between">
+                  
+                  <div class="text-center">
+                      <a href="./index.html"><img src="./asset/images/logo.png" class="w-16" alt=""></a>
+                      
+                  </div>
+  
+                  <div class="text-center">
+                      <h1 class=" text-sm md:text-4xl font-extrabold">Hajee Mohammad Danesh Science and Technology University
+                      </h1>
+                      <h1 class=" text-sm md:text-3xl font-medium">Department of Electronics and communication Engineering 
+                      </h1>
+                     
+                  </div>
+                  <div class="flex justify-between hidden md:hidden lg:block">
+                      
+                      <a href="" class="btn btn-info ">LogIn</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div>
+          <div class="md:hidden">
+              <div class="flex justify-between  my-2 px-4">
+                  
+                  <a href="#">Download</a></li>
+                  <a href="#">ePay</a></li>
+                  <div class="flex justify-between items-center p-1 px-2 cursor-pointer" id="menu-button">
+                      
+                      
+                    <div class="text-xl">Menu  <i class="fa-solid fa-bars"></i></div>
+                    
+                  </div>
+              </div>
+          </div>
+          <div class="hidden md:block" id="menu">
+              <ul class="justify-center md:text-md  font-medium md:flex md:flex-wrap lg:flex ">
+                  <li class="p-3 mx-2 text-black"><a href="./index.html">Home</a></li>
+                  <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#aboutus">About Us</a></li>
+                  <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="./faculty.html">Faculty</a></li>
+                  <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Events</a></li>
+                  <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Addmission</a></li>
+                  <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Accadamic</a></li>
+                  <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="./research.html">Research</a></li>
+                  
+                  <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Project</a></li>
+                  <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="#">Campus Life</a></li>
+                  <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="./alumni.html">Alumni</a></li>
+                  <li class="p-3 mx-2 text-slate-600 hover:text-black"><a href="./notice.html">Notice</a></li>
+              
+                 
+                  <li class="p-2 mx-2 text-slate-600 hover:text-black "><a href="#" class="md:hidden lg:hidden">LogIn</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+    
+
+  <div class="flex items-center border-y">
+    <div class="px-8 py-1 text-md text-white bg-red-600">News</div>
+    <marquee scrollamount="10">ছাত্র- ছাত্রীদের স্মার্ট গ্রন্থাগার কার্ড সম্পর্কিত বিজ্ঞপ্তি ও আবেদনের লিংক          >>        “One Stop Service” সম্পর্কিত অফিস আদেশ ও আবেদনপত্র</marquee>
+</div>
+
+  <!-- carosel  -->
+  <section>
+      <div class="hero sm:min-h-[calc(100vh-250px)] md:min-h-[calc(100vh-225px)]">
+          <div class="carousel w-full ">
+              <div id="slide1" class="carousel-item relative w-full">
+                  <img src="./asset/images/home-1517814478.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide4" class="md:btn md:btn-circle text-white">❮</a> 
+                  <a href="#slide2" class="md:btn md:btn-circle text-white">❯</a>
+                </div>
+
+
+                <div class="absolute left-0 right-0 bottom-2 md:bottom-14 text-center px-2">
+                  <h1 class="text-white text-xs md:text-2xl lg:text-3xl border-l-2 border-l-indigo-500 inline-block pl-2 md:pl-4">Bangabandhu Mural, SUST</h1>
+                 </div>
+
+                <div class=" hideen md:absolute md:left-0 md:right-0  md:bottom-4 text-center">
+                  <a href="#slide1" class="w-2 h-2 bg-blue-400 p-2 rounded-full">1</a> 
+                  <a href="#slide2" class="w-2 h-2 bg-blue-400 p-2 rounded-full">2</a> 
+                  <a href="#slide3" class="w-2 h-2 bg-blue-400 p-2 rounded-full">3</a> 
+                  <a href="#slide4" class="w-2 h-2 bg-blue-400 p-2 rounded-full">4</a> 
+                  <a href="#slide1" class="w-2 h-2 bg-blue-400 p-2 rounded-full">5</a> 
+                 
+                </div>
+
+              </div> 
+              <div id="slide2" class="carousel-item relative w-full">
+                  <img src="./asset/images/home-1517814449.jpg" class="w-full" />
+                
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide1" class="md:btn md:btn-circle text-white">❮</a> 
+                  <a href="#slide3" class="md:btn md:btn-circle text-white">❯</a>
+                </div>
+
+                <div class="absolute left-0 right-0 bottom-2 md:bottom-14 text-center px-2 ">
+                  <h1 class="text-white text-xs md:text-2xl lg:text-3xl border-l-2 border-l-indigo-500 inline-block pl-2 md:pl-4">One of the prestigious universities in Bangladesh with 7 <br> Schools, 27 Departments, and 2 institutes.</h1>
+                 </div>
+
+                  <div class=" hideen md:absolute md:left-0 md:right-0  md:bottom-4 text-center">
+                  <a href="#slide1" class="w-2 h-2 bg-blue-400 p-2 rounded-full">1</a> 
+                  <a href="#slide2" class="w-2 h-2 bg-blue-400 p-2 rounded-full">2</a> 
+                  <a href="#slide3" class="w-2 h-2 bg-blue-400 p-2 rounded-full">3</a> 
+                  <a href="#slide4" class="w-2 h-2 bg-blue-400 p-2 rounded-full">4</a> 
+                  <a href="#slide1" class="w-2 h-2 bg-blue-400 p-2 rounded-full">5</a> 
+                 
+                </div>
+
+               
+              </div>
+
+              <div id="slide3" class="carousel-item relative w-full">
+                <img src="./asset/images/home-1581571418.jpg" class="w-full opacity-90" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide2" class="md:btn md:btn-circle text-white">❮</a> 
+                  <a href="#slide4" class="md:btn md:btn-circle text-white">❯</a>
+                </div>
+
+                <div class="absolute left-0 right-0 bottom-2 md:bottom-14 text-center px-2 ">
+                  <h1 class="text-white text-xs md:text-2xl lg:text-3xl border-l-2 border-l-indigo-500 inline-block pl-4">Convocation 2020</h1>
+                 </div>
+
+
+
+                 <div class=" hideen md:absolute md:left-0 md:right-0  md:bottom-4 text-center">
+                  <a href="#slide1" class="w-2 h-2 bg-blue-400 p-2 rounded-full">1</a> 
+                  <a href="#slide2" class="w-2 h-2 bg-blue-400 p-2 rounded-full">2</a> 
+                  <a href="#slide3" class="w-2 h-2 bg-blue-400 p-2 rounded-full">3</a> 
+                  <a href="#slide4" class="w-2 h-2 bg-blue-400 p-2 rounded-full">4</a> 
+                  <a href="#slide1" class="w-2 h-2 bg-blue-400 p-2 rounded-full">5</a> 
+                 
+                </div>
+              </div> 
+              <div id="slide4" class="carousel-item relative w-full">
+                <img src="./asset/images/home-1679031913.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide3" class="md:btn md:btn-circle text-white">❮</a> 
+                  <a href="#slide1" class="md:btn md:btn-circle text-white">❯</a>
+                </div>
+
+                <div class="absolute left-0 right-0 bottom-2 md:bottom-14 text-center px-2 ">
+                  <h1 class="text-white text-xs md:text-2xl lg:text-3xl border-l-2 border-l-indigo-500 inline-block pl-2 md:pl-4">Bangabandhu Mural, SUST</h1>
+                 </div>
+
+                 <div class=" hideen md:absolute md:left-0 md:right-0  md:bottom-4 text-center">
+                  <a href="#slide1" class="w-2 h-2 bg-blue-400 p-2 rounded-full">1</a> 
+                  <a href="#slide2" class="w-2 h-2 bg-blue-400 p-2 rounded-full">2</a> 
+                  <a href="#slide3" class="w-2 h-2 bg-blue-400 p-2 rounded-full">3</a> 
+                  <a href="#slide4" class="w-2 h-2 bg-blue-400 p-2 rounded-full">4</a> 
+                  <a href="#slide1" class="w-2 h-2 bg-blue-400 p-2 rounded-full">5</a> 
+                 
+                </div>
+              </div>
+            </div>
+      </div>
+  </section>
+   </header>
+
+   <main class="w-full ">
+      <section class="w-full md:w-11/12 md:mx-auto py-5">
+        <div class=" sm:flex-col md:flex md:flex-row  w-full">
+          <div class="w-full h-full md:w-1/5 ">
+            <div class="h-full">
+              <!-- <label for="my-drawer-2" class="drawer-overlay"></label>  -->
+              <ul class="menu p-4  min-h-full bg-base-200 text-base-content h-full ">
+                <!-- Sidebar content here -->
+                <li><a onclick="overview()" class="text-xl">Over View</a></li>
+                <li><a onclick="research()" class="text-xl">Research</a></li>
+                <li><a onclick="publication()" class="text-xl">Publication</a></li>
+                <li><a onclick="scholarship()" class="text-xl">Scholarship</a></li>
+                <li><a onclick="achivement()" class="text-xl">Achivement</a></li>
+                <li><a onclick="library()" class="text-xl">Library</a></li>
+                <li><a onclick="culture()" class="text-xl">Culture</a></li>
+              </ul>
+            
+            </div>
+           </div>
+
+
+          <div class="w-full md:w-4/5 ">
+            
+            <div id="overview"  >
+              <div class="sm:flex sm:flex-col md:flex md:flex-col lg:flex lg:flex-row">
+                <div class="md:flex-1">
+                  <div>
+                   
+                    <p class="w-full  text-lg font-[14px] p-4 text-[#000]">
+                      Shahjalal University of Science and Technology (SUST) was established in 1987. The only university of its kind at that time, it started it's journey on the 13th of February 1991 with only three departments: Physics, Chemistry and Economics, 13 teachers and 205 students. It has now expanded to 7 schools, 27 departments and a number of institutes and centres. The number of teachers has grown to 487 and the students to 9262. Besides, the University has 8 affiliated medical colleges under the School of Medical Sciences with 2744 students.
+                    </p>
+                    <button src="#aboutus" class="btn btn-info mt-5 m-4">Discover More</button>
+                  </div>
+
+                </div>
+                <div class="md:flex-1">
+                  <img src="./asset/images/home-overview-new.jpg" class="bg-cover md:h-[150px]  w-full lg:h-full" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="hidden " id="research" >
+              <div class="sm:flex sm:flex-col md:flex md:flex-col lg:flex lg:flex-row">
+                <div class="md:flex-1">
+                  <div>
+                    <h1 class="text-4xl p-4">Research</h1>
+                    <p class="w-full  text-lg font-[14px] p-4 text-[#000]">
+                      Being one of the prestigious universities in Bangladesh, Shahjalal University of Science & Technology (SUST) faculty and students are involved in various types of research activity. SUST Research Centre aims to enhance the research environment in order to perform quality research by the teachers of this university.
+                    </p>
+                    <button class="btn btn-info mt-5 m-4">Discover More</button>
+                  </div>
+
+                </div>
+                <div class="md:flex-1">
+                  <img src="./asset/images/research-lab.jpg" class="bg-cover md:h-[150px]  w-full lg:h-full" alt="">
+                </div>
+              </div>
+
+            </div>
+
+            <div class="hidden " id="publication">
+              <div class="sm:flex sm:flex-col md:flex md:flex-col lg:flex lg:flex-row">
+                <div class="md:flex-1">
+                  <div>
+                   <h1 class="p-4 text-4xl">Publication</h1>
+                    <p class="w-full  text-lg font-[14px] p-4 text-[#000]">
+                      The teaching-learning activities of Shahjalal University of Science & Technology are notable at the national context. A diverse range of articles and journals are published by teachers and students all the year round.
+                    </p>
+                    <button class="btn btn-info mt-5 m-4">Discover More</button>
+                  </div>
+
+                </div>
+                <div class="md:flex-1 ">
+                  <img src="./asset/images/library-new.jpg" class="bg-cover md:h-[150px]  w-full lg:h-full" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="hidden " id="scholarship">
+              <div class="sm:flex sm:flex-col md:flex md:flex-col lg:flex lg:flex-row">
+                <div class="md:flex-1">
+                  <div>
+                   <h1 class="p-4 text-4xl">Scholarship</h1>
+                    <p class="w-full  text-lg font-[14px] p-4 text-[#000]">
+                      Shahjalal University of Science & Technology provides a number of scholarships to meritorious students to encourage them for better performance.
+                    </p>
+                    <button class="btn btn-info mt-5 m-4">Discover More</button>
+                  </div>
+
+                </div>
+                <div class="md:flex-1 ">
+                  <img src="./asset/images/scholarship.jpg" class="bg-cover md:h-[150px]  w-full lg:h-full" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="hidden " id="achivement">
+              <div class="sm:flex sm:flex-col md:flex md:flex-col lg:flex lg:flex-row">
+                <div class="md:flex-1">
+                  <div>
+                   <h1 class="p-4 text-4xl">Achivement</h1>
+                    <p class="w-full  text-lg font-[14px] p-4 text-[#000]">
+                      Through research, academic, and various extra- curricular activities, Shahjalal University of Science & Technology faculty and students achieved many awards and recognition.
+                    </p>
+                    <button class="btn btn-info mt-5 m-4">Discover More</button>
+                  </div>
+
+                </div>
+                <div class="md:flex-1 ">
+                  <img src="./asset/images/achievements.jpg" class="bg-cover md:h-[150px]  w-full lg:h-full" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="hidden " id="library">
+              <div class="sm:flex sm:flex-col md:flex md:flex-col lg:flex lg:flex-row">
+                <div class="md:flex-1">
+                  <div>
+                   <h1 class="p-4 text-4xl">Library</h1>
+                    <p class="w-full  text-lg font-[14px] p-4 text-[#000]">
+                      Library of Shahjalal University of Science & Technology is rich with over million books, journals, articles, audio & visuals. It is open of SUST faculty, students, and staffs from 8 AM till 8 PM.
+                    </p>
+                    <button class="btn btn-info mt-5 m-4">Discover More</button>
+                  </div>
+
+                </div>
+                <div class="md:flex-1 ">
+                  <img src="./asset/images/library-new.jpg" class="bg-cover md:h-[150px]  w-full lg:h-full" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="hidden " id="culture">
+              <div class="sm:flex sm:flex-col md:flex md:flex-col lg:flex lg:flex-row">
+                <div class="md:flex-1">
+                  <div>
+                   <h1 class="p-4 text-4xl">Culture</h1>
+                    <p class="w-full  text-lg font-[14px] p-4 text-[#000]">
+                      SUST campus isn't just an academic institution. It's an active and supportive community, with harmony of its own. A vast range of cultural, educational, athletic and social activities are available at SUST students, faculty and staff.
+                    </p>
+                    <button class="btn btn-info mt-5 m-4">Discover More</button>
+                  </div>
+
+                </div>
+                <div class="md:flex-1 ">
+                  <img src="./asset/images/culture.jpg" class="bg-cover md:h-[150px]  w-full lg:h-full" alt="">
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </section>
+
+
+      <section class=" bg-[#4b4b4b]   w-full  py-6 md:py-12 lg:py-24">
+       <div class="w-full md:w-11/12 md:mx-auto ">
+        <h1 class="text-4xl text-center font-extrabold my-5 text-white">HUST Today</h1>
+        <h3 class="text-xl text-center mb-12 text-white">Latest News</h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 my-4">
+          <div class="card  bg-base-100 shadow-xl ">
+            <figure><img src="./asset/images/thumnail-home-page-for-iaup-winner-iubat-1.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">HUST Ranks 6th in the ASEAN and Asia Pacific Region in AppliedHE Private University Ranking 2023</h2>
+            </div>
+          </div>
+          <div class="card  bg-base-100 shadow-xl">
+            <figure><img src="./asset/images/IUBAT-National-Career-Festival-2023-banner.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">HUST – UI Green Metric ranked university - 2022!</h2>
+            </div>
+          </div>
+          <div class="card  bg-base-100 shadow-xl">
+            <figure><img src="./asset/images/iubat_ui_greenmatric_2022.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">HUST National Career Festival 2023!</h2>
+              
+            </div>
+          </div>
+          <div class="card  bg-base-100 shadow-xl">
+            <figure><img src="./asset/images/ranked-6-asean-iubat.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Congratulations to the 2023 IAUP Student Competition Winners!</h2>
+             
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="text-center"><button class="btn btn-error mt-4 text-white">More News</button></div>
+       </div>
+      </section>
+
+
+      <section class="w-full bg-[#d2dae2] py-6 md:py-12 lg:py-24">
+       <div class="w-full md:w-11/12 md:mx-auto ">
+        <h1 class="text-4xl text-center my-5 text-white font-extrabold">HUST Events</h1>
+        
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 my-4">
+          <div class="card  bg-base-100 shadow-xl ">
+            <figure><img src="./asset/images/HA-MEEM-GROUP-RECRUITMENT.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">
+                Ha-Meem Group will be organizing recruitment interviews at HUST campus</h2>
+            </div>
+          </div>
+          <div class="card  bg-base-100 shadow-xl">
+            <figure><img src="./asset/images/itech-expo-iubat-2022-1.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">iTech Expo- HUST 2022</h2>
+            </div>
+          </div>
+          <div class="card  bg-base-100 shadow-xl">
+            <figure><img src="./asset/images/iubat_ui_greenmatric_2022.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">6th Convocation of HUST</h2>
+              
+            </div>
+          </div>
+          <div class="card  bg-base-100 shadow-xl">
+            <figure><img src="./asset/images/conference-2022.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">International Conference on Sustainable Computing and Management (SUSCOM-2022)</h2>
+             
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="text-center"><button class="btn btn-error mt-4 text-white">More News</button></div>
+       </div>
+      </section>
+
+
+
+      <section class="w-full py-6 md:py-12 lg:py-24">
+       <div class="w-full md:w-11/12 md:mx-auto ">
+        <h1 class="text-4xl md:text-6xl text-center my-5 font-semibold">HUST research for a better future</h1>
+        <h1 class="text-xl text-center my-5 w-full md:w-3/4 mx-auto">A wide and diverse range of opportunities of research for both students and teachers in knowledge creation for a better world to live in.</h1>
+
+        <div class="divider"></div> 
+
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
+          <div class="text-center">
+            <h1 class="text-2xl font-bold">HUST</h1>
+          </div>
+          <div class="text-center">
+              <h1 class="text-2xl font-bold">10 Centers</h1>
+              <p class="text-xl font-normal">Food Security, Economic, Social & Business Development</p>
+          </div>
+          <div class="text-center">
+              <h1 class="text-2xl font-bold">BDT 20 Million</h1>
+              <p class="text-xl font-normal">Annual research budget</p>
+
+        </div>
+        
+
+
+        
+       </div>
+
+      </section>
+
+
+     
+
+      <section class="w-full  py-6 md:py-12 lg:py-24">
+        <div class="w-full md:w-11/12 md:mx-auto ">
+         <h1 class="text-4xl text-center font-extrabold mb-6  ">Reaearch</h1>
+         
+         
+ 
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 my-4">
+          <div class="card  bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./asset/images/Tomaalo-production-by-grafting-process-with-Tomato-Potato.jpg" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body ">
+              <h2 class="card-title">Tomaalo production by grafting process with Tomato & Potato!</h2>
+              
+            </div>
+          </div>
+          <div class="card  bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./asset/images/A-micro-controller-based-intelligent-inverter-1024x685.jpg" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body ">
+              <h2 class="card-title">
+                A micro controller based intelligent inverter!</h2>
+            </div>
+          </div>
+          <div class="card  bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./asset/images/Brain-Controlled-Bionic-Leg-1024x685.jpg" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body ">
+              <h2 class="card-title">
+                We are working on Brain-Controlled Bionic Leg!</h2>
+            </div>
+          </div>
+          <div class="card  bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./asset/images/IMG_20180805_105106-1024x683.jpg" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body ">
+              <h2 class="card-title">Success in Sweet Grape Production at HUST!</h2>
+            </div>
+          </div>
+         
+           
+         </div>
+ 
+         <div class="text-center"><button class="btn btn-error mt-4 text-white">More News</button></div>
+        </div>
+       </section>
+     
+
+      <section class="w-full  py-6 md:py-12 lg:py-24">
+        <div class="w-full md:w-11/12 md:mx-auto ">
+         <h1 class="text-4xl text-center mb-8 font-extrabold">Campus Life</h1>
+         <h1 class="text-xl text-center mb-12 ">HUST flourishes as a community of talented and masterly people from home and abroad</h1>
+ 
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        
+          <div class="card  bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./asset/images/160-IUBAT-Nov-2017-Kiron.jpg" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body ">
+              <h2 class="card-title font-bold">
+                Holistically Balanced</h2>
+
+                <p>Campus Life is committed to helping students as they wrestle with issues they face, both big and small, while pursuing a balanced life: mentally, physically, and socially <span>
+                  <a href="#" class="text-blue-500">Read More</a>
+                </span></p>
+            </div>
+          </div>
+          <div class="card  bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./asset/images/D714183.jpg" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body ">
+              <h2 class="card-title font-bold">
+                Arts & Culture</h2>
+
+                <p>Arts and culture in all their forms arouse your curiosity. Talent and expertise is needed to introduce societies to art <span><a href="#" class="text-blue-500">Read More</a></span></p>
+            </div>
+          </div>
+          <div class="card  bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./asset/images/DSC09979-Copy.jpg" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body ">
+              <h2 class="card-title font-bold">Diversity & Inclusion</h2>
+              <p>
+                At HUST, we welcome and support a diverse community. But we know that to make a better world, we must work to continually make a better HUST. <span><a href="#" class="text-blue-500">Read More</a></span>
+              </p>
+            </div>
+          </div>
+         
+           
+         </div>
+ 
+         <div class="text-center"><button class="btn btn-error mt-4 text-white">More News</button></div>
+        </div>
+       </section>
+     
+<!-- Admission -->
+      <section class="w-full  py-6 md:py-12 lg:py-24">
+        <div class="w-full md:w-11/12 md:mx-auto ">
+         <h1 class="text-4xl text-center mb-8 font-extrabold">Admission</h1>
+         <p class="text-xl text-center mb-8 font-normal">No one is refused from IUBAT only because of financial inability</p>
+         
+         <img src="./asset/images/home-1517814449.jpg" alt="">
+
+         <h1 class="text-2xl text-center mb-8 font-semibold">Higher Education for Every Qualified Person: with Finance for Meritorious but Needy</h1>
+ 
+         <div class="text-center"><button class="btn btn-error mt-4 text-white">More News</button></div>
+        </div>
+       </section>
+     
+<!-- About -->
+      <section class="w-full  py-6 md:py-12 lg:py-24">
+        <div class="w-full md:w-11/12 md:mx-auto ">
+         <h1 class="text-4xl text-center mb-8 font-semibold">About HUST</h1>
+         <p class="text-xl text-center mb-8 font-normal">An environment designed for learning and extensive collaboration for building an enriched global community</p>
+         <div class="text-center">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+  
+            <div class="text-center">
+              <div class="stat-title">INITIATED</div>
+              <div class="stat-value">1989</div>
+             
+            </div>
+            
+            <div class="text-center">
+              <div class="stat-title">TEACHERS</div>
+              <div class="stat-value text-secondary">299</div>
+              
+            </div>
+            
+            <div class="text-center">
+              <div class="stat-title">FACULTY PUBLICATIONS</div>
+              <div class="stat-value">1326</div>
+              
+            </div>
+
+            <div class="text-center">
+              <div class="stat-title">ESTABLISHED</div>
+              <div class="stat-value">1991</div>
+             
+            </div>
+            
+            <div class="text-center">
+              <div class="stat-title">STUDENTS</div>
+              <div class="stat-value text-secondary">8397</div>
+              
+            </div>
+            
+            <div class="text-center">
+              <div class="stat-title">COLLABORATIONS & MEMBERS
+              </div>
+              <div class="stat-value">91</div>
+              
+            </div>
+            
+          </div>
+          
+         </div>
+
+         <!-- <h1 class="text-2xl text-center mb-8 font-semibold">Higher Education for Every Qualified Person: with Finance for Meritorious but Needy</h1> -->
+ 
+         <!-- <div class="text-center"><button class="btn btn-error mt-4 text-white">More News</button></div> -->
+         <div class="divider"></div> 
+        </div>
+       </section>
+     
+<!-- more PIONEER IN BANGLADESH -->
+      <section class="w-full  py-6 md:py-12">
+        <div class="w-full md:w-11/12 md:mx-auto ">
+         <h1 class="text-4xl text-center mb-8 font-semibold">HUST PIONEER IN BANGLADESH</h1>
+         
+         <div class="text-center">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
+  
+            <div class="text-center">
+              <button class="btn btn-outline btn-info">Establishing Non-Government University</button>
+             
+            </div>
+            
+            <div class="text-center">
+              <button class="btn btn-outline btn-info">Introducing BBA program</button>
+              
+            </div>
+            
+            <div class="text-center">
+              <button class="btn btn-outline btn-info">Introducing BSME program in private sector</button>
+              
+            </div>
+
+            <div class="text-center">
+              <button class="btn btn-outline btn-info">Introducing BATHM program</button>
+             
+            </div>
+            
+            <div class="text-center">
+              <button class="btn btn-outline btn-info">Introducing BSAg program in private sector</button>
+              
+            </div>
+            
+            <div class="text-center">
+              <button class="btn btn-outline btn-info">Introducing Nursing program in private sector</button>
+              
+            </div>
+            
+          </div>
+          
+         </div>
+
+        
+ 
+         <div class="text-center"><button class="btn btn-error mt-4 text-white">More About HUST</button></div>
+         
+        </div>
+       </section>
+
+
+
+      <!-- main footer -->
+      
+      <div id="mainfooter-placeholder"></div>
+
+
+
+
+   </main>
+
+<!-- footer placement -->
+<div id="footer-placeholder"></div>
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+     
+   <script src="./asset/js/main.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $("#navbar-placeholder").load("./asset/shared/navabar.html");
+    $("#mainfooter-placeholder").load("./asset/shared/mainfooter.html");
+    $("#footer-placeholder").load("./asset/shared/footer.html");
+  });
+
+
+   
+</script>
+
+    <script>
+        const menubtn = document.getElementById('menu-button');
+        const menu = document.getElementById('menu');
+        menubtn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+
+
+
+        // Function to switch between slides
+  function switchSlide(currentSlide, nextSlide) {
+    currentSlide.classList.add('hidden');
+    nextSlide.classList.remove('hidden');
+  }
+
+  // Function to auto-advance the carousel
+  function autoAdvanceCarousel() {
+    const slides = document.querySelectorAll('.carousel-item');
+    let currentSlideIndex = 0;
+
+    setInterval(() => {
+      const currentSlide = slides[currentSlideIndex];
+      const nextSlideIndex = (currentSlideIndex + 1) % slides.length;
+      const nextSlide = slides[nextSlideIndex];
+
+      switchSlide(currentSlide, nextSlide);
+      currentSlideIndex = nextSlideIndex;
+    }, 3000); // 2 seconds
+  }
+
+  // Wait for the document to load before starting the auto-advance
+  document.addEventListener('DOMContentLoaded', autoAdvanceCarousel);
+        
+    </script>
+</body>
+
+</html>
